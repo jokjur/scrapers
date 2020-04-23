@@ -46,3 +46,7 @@ AutopliusScraper is expected to output
 - auto.json (file containing all the scraped data)
 - statistics.json (file containing calculated statistics from scraped data)
 - Statisctics.png (Barplots of calculated statistics)
+
+## Additional information
+
+AutopliusScraper script only scrapes autoplius webpage if file auto.json is not present. If the file exists script only processes data from this file
